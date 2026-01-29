@@ -1,14 +1,29 @@
 $ git branch -a
+
+  bug-fix-revert
+
+  bug-fix-typo
+
 * main
+
   remotes/origin/HEAD -> origin/main
+
+  remotes/origin/bug-fix-revert
+
+  remotes/origin/bug-fix-typo
+
   remotes/origin/main
 
-$ git branch -v
-* main 5b2e5a2 Add CONTRIBUTING.md with contribution guidelines
 
-$ git log --oneline -5
-5b2e5a2 (HEAD -> main, origin/main, origin/HEAD) Add CONTRIBUTING.md with contribution guidelines
-0ce98bd Add Apache License 2.0 to the project
-121a065 Add simple interest calculator bash script
-a69b973 Update README.md with detailed description, usage instructions, and features of the Simple Interest Calculator
-e7c5d5e Initial commit
+$ git branch -v
+
+  bug-fix-revert b7c3e8f Fix typo in README
+  bug-fix-typo   3a34b4b Fix typo in README
+* main           682c460 Add curl command and terminal output showing valid pull request from forked repository
+
+
+$ git branch -vv
+
+  bug-fix-revert b7c3e8f [origin/bug-fix-revert] Fix typo in README
+  bug-fix-typo   3a34b4b [origin/bug-fix-typo] Fix typo in README
+* main           682c460 [origin/main] Add curl command and terminal output showing valid pull request from forked repository
