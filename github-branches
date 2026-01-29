@@ -1,0 +1,14 @@
+$ git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+$ git branch -v
+* main 5b2e5a2 Add CONTRIBUTING.md with contribution guidelines
+
+$ git log --oneline -5
+5b2e5a2 (HEAD -> main, origin/main, origin/HEAD) Add CONTRIBUTING.md with contribution guidelines
+0ce98bd Add Apache License 2.0 to the project
+121a065 Add simple interest calculator bash script
+a69b973 Update README.md with detailed description, usage instructions, and features of the Simple Interest Calculator
+e7c5d5e Initial commit
