@@ -1,10 +1,17 @@
 $ git checkout main
-Already on 'main'
+
+Switched to branch 'main'
+
 Your branch is up to date with 'origin/main'.
 
-$ git merge bug-fix-typo
-Updating a69b973..b7c3e8f
-Fast-forward
- README.md | 1 file changed, 1 insertion(+), 1 deletion(-)
 
-1 file changed, 1 insertion(+), 1 deletion(-)
+
+$ git merge bug-fix-typo
+
+Updating 0fe8ae6..3a34b4b
+
+Fast-forward
+
+ README.md | 2 +-
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
